@@ -7,13 +7,11 @@
           <div class="logo">
             <a href="javascript:void(0)" class="logo-expanded">
               <img src="../assets/images/police2.png" width="50%" alt="" />
+<!--              <img src="../assets/images/logo@2x.png" width="100%" alt="" />-->
             </a>
             <a href="javascript:void(0)" class="logo-collapsed">
-              <img
-                  src="../assets/images/logo-collapsed@2x.png"
-                  width="40"
-                  alt=""
-              />
+<!--              <img src="../assets/images/logo-collapsed@2x.png" width="40" alt=""/>-->
+              <img src="../assets/images/police2.png" width="40" alt=""/>
             </a>
           </div>
           <div class="mobile-menu-toggle visible-xs">
@@ -61,11 +59,11 @@
 
     <div class="main-content">
       <nav class="navbar user-info-navbar" role="navigation" style="position: sticky;top: 0;z-index: 9999;" >
-<!--        <ul class="user-info-menu left-links list-inline list-unstyled">
+        <ul class="user-info-menu left-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
             <a href="javascript:void(0)" data-toggle="sidebar"><i class="fa-bars"></i></a>
           </li>
-          <li class="dropdown hover-line language-switcher">
+<!--          <li class="dropdown hover-line language-switcher">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
               <img :src="lang.flag" /> {{ lang.name }}
             </a>
@@ -80,8 +78,8 @@
                 </a>
               </li>
             </ul>
-          </li>
-        </ul>-->
+          </li>-->
+        </ul>
         <ul class="user-info-menu right-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
             <div class="input-group" style="padding-right: 40px;padding-top: 22px;padding-bottom: 22px;">
