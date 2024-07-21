@@ -9,7 +9,7 @@
              @click="openweb(web.url)"
              data-toggle="tooltip"
              data-placement="bottom"
-             :data-original-title="web.url">
+             :data-original-title="web.desc">
 
           <div class="xe-comment-entry">
             <a class="xe-user-img">
