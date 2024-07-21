@@ -11,6 +11,14 @@ import './assets/css/xenon-core.css'
 import './assets/css/xenon-components.css'
 import './assets/css/xenon-skins.css'
 import './assets/css/nav.css'
+// import index2 from "@/views/wechatnav/index2";
+
+// 引入全局可用阿里图标样式文件
+// import './assets/wechatnav/iconfont.css'
+// 引入全局可用阿里图标js文件
+import './assets/wechatnav/iconfont.js'
+// 引入自己设置的全局icon基础样式，一般用于规定基础的svg宽高和图标大小
+
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
