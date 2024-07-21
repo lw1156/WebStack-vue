@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-import Index from './views/index.vue'
+import Index from './views/wechatnav/WechatIndex.vue'
 import About from './views/about.vue'
 
 import './assets/css/fonts/linecons/css/linecons.css'
@@ -11,7 +11,7 @@ import './assets/css/xenon-core.css'
 import './assets/css/xenon-components.css'
 import './assets/css/xenon-skins.css'
 import './assets/css/nav.css'
-// import index2 from "@/views/wechatnav/index2";
+
 
 // 引入全局可用阿里图标样式文件
 // import './assets/wechatnav/iconfont.css'
